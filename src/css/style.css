@@ -3,3 +3,14 @@
     margin: 0;
     padding: 0;
 }
+
+.promo {
+    height: 700px;
+    background: url(../img/картинка2.jpg) center center/cover;
+}
+
+.container { 
+    width: 1000px;
+    margin: 0 auto;
+}
+

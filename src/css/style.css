@@ -14,3 +14,19 @@
     margin: 0 auto;
 }
 
+.promo_logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promo_logo .logo_img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.promo_logo .logo_text {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+

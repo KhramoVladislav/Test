@@ -6,7 +6,7 @@
 
 .box {
     height: 75px;
-    background: rgb(130, 122, 233);
+    background: #4a76a8;
 }
 
 .container { 
@@ -36,28 +36,46 @@
 }
 
 .menu1 {
-    border-width: 1px;
+    border-width: 3px;
     border-style: solid;
-    border-color: thistle;
+    border-color: rgb(0, 0, 0);
     height: 45px;
     margin-right: 50px;
     background: whitesmoke;
 }
 
 .menu2 {
-    border-width: 1px;
+    border-width: 3px;
     border-style: solid;
-    border-color: thistle;
+    border-color: rgb(0, 0, 0);
     height: 45px;
     margin-right: 50px;
     background: whitesmoke;
 }
 
 .menu3 {
-    border-width: 1px;
+    border-width: 3px;
     border-style: solid;
-    border-color: thistle;
+    border-color: rgb(0, 0, 0);
     height: 45px;
     margin-right: 50px;
     background: whitesmoke;
+}
+
+.menu4 {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 25px;
+    margin-right: 50px;
+    background: whitesmoke;
+}
+
+.menu4_text {
+    margin-top: 4px;
 }

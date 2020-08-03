@@ -90,7 +90,7 @@
 
 .feft_menu_start {
     display: inline-flex;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .left_menu_img {
@@ -105,5 +105,5 @@
 }
 
 .box1 {
-    
+    margin-top: 50px;
 }

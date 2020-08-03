@@ -81,22 +81,19 @@
 }
 
 .text_menu {
+    display: inline;
     font-size: 18px;
     line-height: 50px;
 }
 
 
 
-.left_menu {
+.feft_menu_start {
     display: inline-flex;
+    margin-top: 50px;
 }
 
 .left_menu_img {
     width: 25px;
     height: 25px;
-    margin-top: 10px;
-}
-
-.left_menu_text {
-    margin-left: 10px;
 }

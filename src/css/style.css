@@ -79,3 +79,24 @@
 .menu4_text {
     margin-top: 4px;
 }
+
+.text_menu {
+    font-size: 18px;
+    line-height: 50px;
+}
+
+
+
+.left_menu {
+    display: inline-flex;
+}
+
+.left_menu_img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.left_menu_text {
+    margin-left: 10px;
+}

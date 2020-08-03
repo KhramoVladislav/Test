@@ -92,4 +92,23 @@
     margin-top: 12px;
 }
 
+.box1_text1 {
+    font-size: 18px;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgb(255, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkred;
+    background: darkseagreen;
+}
+
+.box1_text1_p {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 

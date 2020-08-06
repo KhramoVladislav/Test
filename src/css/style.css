@@ -5,6 +5,8 @@
 
 header {
     position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -87,4 +89,20 @@ nav {
     height: 600px;
     background: url(../img/картинка2.jpg) center center/cover no-repeat;
 
+}
+
+.promo1 .promo1_text1 {
+    font-size: 26px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.promo1_text_1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: wheat;
+}
+
+.promo2 {
+    height: 2000px;
 }

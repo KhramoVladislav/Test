@@ -1,31 +1,49 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 header {
-    height: 50px;
-    background-color: rgb(58, 57, 57);
+    position: relative;
+}
+
+nav {
+    height: 70px;
+    background: rgb(46, 46, 46);
 }
 
 .container {
-    width: 1140px;
     margin: 0 auto;
+    width: 1140px;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 13px 70px;
-    margin: 0;
-    list-style-type: none;
-    
+    list-style: none;
+    padding: 20px;
 }
 
 .menu_link {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration-line: none;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item {
+    padding-right: 80px;
+    border-right: 2px solid black;
+}
+
+.menu1 {
+    position: absolute;
+    height: 70px;
+    background: rgb(0, 0, 0, .6);
+    width: 100%;
+    
+}
+
+.box {
+    height: 700px;
+    background: url(../img/картинка2.jpg) center center/cover no-repeat;
 }

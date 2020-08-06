@@ -9,12 +9,12 @@ header {
 
 nav {
     height: 70px;
-    background: rgb(46, 46, 46);
+    background: rgb(44, 44, 44);
 }
 
 .container {
-    margin: 0 auto;
     width: 1140px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -26,24 +26,65 @@ nav {
 
 .menu_link {
     font-size: 24px;
-    text-decoration: none;
-    color: white;
-}
-
-.menu_item {
-    padding-right: 80px;
-    border-right: 2px solid black;
-}
-
-.menu1 {
-    position: absolute;
-    height: 70px;
-    background: rgb(0, 0, 0, .6);
-    width: 100%;
-    
+    color: blanchedalmond;
+    border-right: 2px solid black ;
+    padding-right: 60px;
+    text-decoration-line: none;
 }
 
 .box {
-    height: 700px;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0,0,0, .6);
+}
+
+.promo {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+}
+
+.promo .promo_logo {
+    padding: 20px 0px;
+    width: 350px;
+}
+
+.promo .promo_logo1 {
+    padding: 20px 0px;
+    width: 350px;
+    margin-right: 0px;
+    width: 250px;
+}
+
+.promo  .promo_img {
+    width: 50px;
+    float: left;
+ 
+}
+
+.promo  .promo_logo_text {
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: seashell;
+}
+
+.promo  .promo_logo_text1 {
+    margin-top: -8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: seashell;
+}
+
+
+.promo  .promo_logo_text_1 {
+    color: seashell;
+    text-decoration: none;
+}
+
+.promo1 {
+    height: 600px;
     background: url(../img/картинка2.jpg) center center/cover no-repeat;
+
 }

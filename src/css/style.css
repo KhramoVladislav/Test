@@ -106,3 +106,23 @@ nav {
 .promo2 {
     height: 2000px;
 }
+
+.cnopka {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-top: 80px;
+
+}
+
+.cnopka_text {
+    color: rgb(212, 115, 115);
+    text-decoration: none;
+    font-size: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(82, 21, 163, 0.1);
+    text-transform: uppercase;
+}

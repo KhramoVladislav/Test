@@ -1,164 +1,160 @@
 nav {
     height: 70px;
-    background: #212121;
+    background: rgb(43, 43, 43);
 }
 
 header {
     position: relative;
 }
 
-.box {
+.head {
     display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    font-size: 18px;
+    justify-content: space-between;
+    padding: 20px;
     list-style: none;
 }
 
-.box .box_link {
-    color: #f5f5f5;
-}
-.box .box_ikon {
-    border-right: 2px solid black;
-    padding-right: 20px;
+.head .head_link {
+    color: white;
+    font-size: 18px;
 }
 
-.box1 {
+.head .head_icon {
+    border-right: 2px solid black;
+    padding-right: 25px;
+}
+
+.head1 {
     position: absolute;
     width: 100%;
     height: 80px;
-    background-color: rgb(0, 0, 0, .6);
+    background-color: rgb(3, 3, 3, .6);
 }
 
-.col-8 {
-    margin-left: 80px;
-    margin-top: 15px;
+.col {
+    padding-top: 5px;
 }
 
-.box1_icon {
+.col .head1_icon {
     float: left;
-    width: 40px;
-    margin-top: 5px;
+    width: 50px;
 }
 
-
-.box1_text {
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 0px;
+.col .col_text {
+    font-size: 30px;
     text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-left: 60px;
+    padding-top: 5px;
 }
 
-.box1_text1 {
+.col .col_text1 {
+    color: rgb(199, 199, 199);
+}
+
+.col-md-auto {
+    padding-top: 5px;
+}
+
+.col-md-auto .text_number {
+    color: white;
     font-size: 12px;
+    padding-left: 56px;
+}
+
+.col-md-auto .number_link {
     color: white;
-
+    font-size: 30px;
+    font-weight: 600;
 }
 
-.col-3 {
-    margin-left: 15px;
-    margin-top: 15px;
-    color: white;
-    line-height: 21px;
+.btn-primary {
+    color: #fff;
+    background-color: #688db4;
+    border-color: 688db4;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.col-3_text {
-    font-size: 14px;
-    margin-left: 10px;
+.col1 {
+    padding-top: 10px;
 }
 
-.col-3_text1 {
-    font-size: 25px;
+.bot_primary {
+    padding-top: 50px;
 }
 
-.box2 {
-    height: 750px;
+.box {
+    text-align: center;
+    height: 600px;
     background: url('../img/Шапка.jpg') center center/cover no-repeat;
 }
 
-.box2 .box2_text {
-    text-align: center;
-    padding-top: 100px;
+.box .box_text {
+    padding-top: 110px;
+    text-transform: uppercase;   
+}
+
+    .box .box_text .box_text1 {
+    font-size: 60px;
+    font-weight: 600;
     color: white;
-    list-style: none;
 }
 
-.box2 .box2_text1 {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
+.box .box_text .box_text2 {
+    font-size: 46px;
+    color: white;
 }
 
-.box2 .box2_text2 {
-    text-transform: uppercase;
-    font-size: 30px;
+h1 {
+    line-height: 30px;
 }
 
-.box2_text3 {
-    padding-top: 26px;
-    font-size: 14px;
+.box_text3 {
+    color: white;
+    font-size: 12px;
+    padding-top: 10px;
 }
 
-.button {
+.button1 {
+    padding-top: 100px;
+}
+
+.box2 {
     text-align: center;
-    padding-top: 120px;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: #ffffff;
-    background-color: #0062cc;
-    border-color: #173b61;
-}
-
-.btn-group-lg>.btn, .btn-lg {
-    padding: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: .3rem;
-}
-
-.box3 {
     height: 1200px;
 }
 
-.box3_box {
-    text-align: center;
-}
-
-.box3_box1 {
-    text-align: center;
-    width: 400px;
-    display: inline-block;
-    margin: 50px;
-}
-
-.box3 .box3_text {
-    font-size: 30px;
-    font-weight: 700;
+.box2_logo {
+    padding-top: 50px;
     text-transform: uppercase;
-    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
     color: black;
-    padding-top: 100px;
 }
 
-.box3_box1_text {
-    text-align: left;
-    font-size: 12px;
-    padding-left: 130px;
-}
-
-
-.box3_box1_img {
+.box2_icon {
     float: left;
-    margin-top: 30px;
-    width: 100px;
+    padding-top: 20px;
+}
+
+.box_o {
+    padding-top: 50px;
+}
+
+.box2_1 {
+    text-align: left;
+    display: inline-block;
+    width: 500px;
+    margin-bottom: 50px;
+    margin: 25px;
 }
 
 span {
-    color: rgb(44, 142, 253);
-    font-size: 14px;
+    color: cornflowerblue;
 }
 
+.box2_text {
+    padding-left: 140px;
+}

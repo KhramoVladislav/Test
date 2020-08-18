@@ -120,3 +120,46 @@
     }
 }
 
+@media (max-width: 500px) {
+    .head {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        top: 0;
+        left: -270px;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 0px;
+        background-color: rgba(0,0,0, .8);  
+    }
+        .head_active {
+            left: 0;
+        }
+        
+            .head .head_icon {
+                padding-right: 0;
+                border: none;
+                margin: 10px;
+            }
+                .head .head_link {
+                    
+                    font-size: 20px;
+                }
+
+        .hamburger {
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px;
+        }     
+                span {
+                    display: block;
+                    height: 2px;
+                    width: 100%;
+                    background-color: rgb(255, 255, 255);
+                    margin-bottom: 2px; 
+                }               
+}

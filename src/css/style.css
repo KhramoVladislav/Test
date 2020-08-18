@@ -32,6 +32,10 @@ header {
     border-right: none;
 }
 
+.hamburger {
+    display: none;
+}
+
 .head1 {
     position: absolute;
     width: 100%;
